@@ -1,0 +1,21 @@
+{
+  "name": "fake-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "18f-eslint 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Walker <greg.walker@gsa.gov>",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faker": "^5.4.0",
+    "pg": "^8.5.1"
+  },
+  "prettier": {},
+  "devDependencies": {
+    "@18f/18f-eslint": "^1.2.5",
+    "prettier": "^2.2.1"
+  }
+}
